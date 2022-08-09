@@ -78,6 +78,7 @@ body {
   border: none;
   box-shadow: 5px 5px 10px rgba(172, 172, 172, 0.2);
   height: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .category .cat a .card img {
   position: relative;
@@ -98,5 +99,8 @@ body {
   .container-body .cat a .card {
     height: 170px;
     font-size: 13px;
+  }
+  .container-body .cat a .card .h5 {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */

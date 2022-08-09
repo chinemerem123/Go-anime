@@ -84,6 +84,7 @@ z-index:-1;
                 border:none;
                 box-shadow:5px 5px 10px rgba(172, 172, 172, 0.2);
                 height: 200px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 img{
                     position: relative;
                     width:50px;
@@ -94,6 +95,7 @@ z-index:-1;
 
                 .h5{
                     margin-top: 20px;
+                
                 }
         }
     }
@@ -112,6 +114,10 @@ z-index:-1;
                 .card{
                     height:170px;
                     font-size: 13px;
+
+                    .h5{
+                        font-size: 12px;
+                    }
                 }
             }
         }
