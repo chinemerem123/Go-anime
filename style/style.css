@@ -25,7 +25,7 @@ body {
   left: calc(50% - 150px);
   top: calc(50% - 150px);
 }
-.container-body button {
+.container-body #start {
   width: 50px;
   height: 50px;
   border: none;
