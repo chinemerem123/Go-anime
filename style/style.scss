@@ -73,15 +73,28 @@ z-index:-1;
    
 }
 
-.cat{
-   
+.cat{ 
+    position: relative;
         a{
             text-decoration: none;
             color:#000;
             .card{
+                position:relative;
+            text-align: center;
                 border:none;
                 box-shadow:5px 5px 10px rgba(172, 172, 172, 0.2);
                 height: 200px;
+                img{
+                    position: relative;
+                    width:50px;
+                 height: 50px;
+                 left:calc(50% - 25%);
+                 top:10px;
+                }
+
+                .h5{
+                    margin-top: 20px;
+                }
         }
     }
 }
@@ -94,6 +107,14 @@ z-index:-1;
         width:100%;
         overflow: hidden;
 
+        .cat{
+            a{
+                .card{
+                    height:170px;
+                    font-size: 13px;
+                }
+            }
+        }
        
     }
 }

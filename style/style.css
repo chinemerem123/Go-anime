@@ -65,19 +65,38 @@ body {
 .category .header .h3 {
   font-weight: 550;
 }
+.category .cat {
+  position: relative;
+}
 .category .cat a {
   text-decoration: none;
   color: #000;
 }
 .category .cat a .card {
+  position: relative;
+  text-align: center;
   border: none;
   box-shadow: 5px 5px 10px rgba(172, 172, 172, 0.2);
   height: 200px;
+}
+.category .cat a .card img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: 25%;
+  top: 10px;
+}
+.category .cat a .card .h5 {
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 780px) {
   .container-body {
     width: 100%;
     overflow: hidden;
+  }
+  .container-body .cat a .card {
+    height: 170px;
+    font-size: 13px;
   }
 }/*# sourceMappingURL=style.css.map */
