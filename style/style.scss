@@ -9,7 +9,7 @@ body{
     align-items: center;
     width:100vw;
     height:100vh;
-    background-color: rgb(107, 41, 107);
+    background-color: rgb(233, 168, 27);
 }
 
 .container-body{
@@ -31,7 +31,7 @@ body{
         border:none;
         outline:none;
         border-radius: 50%;
-        background-color: rgb(107, 41, 107);
+        background-color: rgb(233, 168, 27);
         color:white;
         font-weight: bold;
         position: absolute;
@@ -39,15 +39,31 @@ body{
         left:80%;
         box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
     }
+
+    .load{
+        position: relative;
+       // background-color: rgb(17, 17, 39);
+        width:100%;
+        height:100%;
+
+        img{
+            position: relative;
+            width:200px;
+            height:200px;
+            left:calc(50% - 100px);
+            top:calc(50% - 100px);
+        }
+    }
 }
+
+
+
 
 @media screen and (max-width:780px){
     .container-body{
         width:100%;
         overflow: hidden;
 
-        button{
-           
-        }
+       
     }
 }
