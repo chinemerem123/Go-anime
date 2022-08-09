@@ -48,13 +48,14 @@ body{
         top:0;
         left:0;
         background-color: #fff;
+        z-index: 1;
 
         img{
             position: relative;
-            width:200px;
-            height:200px;
-            left:calc(50% - 100px);
-            top:calc(50% - 100px);
+            width:150px;
+            height:150px;
+            left:calc(50% - 75px);
+            top:calc(50% - 75px);
         }
     }
 }
@@ -64,11 +65,25 @@ body{
 width:100%;
 height: 100%;
 font-family: Tahoma;
+z-index:-1;
 .header{
     .h3{
         font-weight: 550;
     }
    
+}
+
+.cat{
+   
+        a{
+            text-decoration: none;
+            color:#000;
+            .card{
+                border:none;
+                box-shadow:5px 5px 10px rgba(172, 172, 172, 0.2);
+                height: 200px;
+        }
+    }
 }
 }
 
