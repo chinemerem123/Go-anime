@@ -43,8 +43,9 @@ body {
 @media screen and (max-width: 780px) {
   .container-body {
     width: 100%;
+    overflow: hidden;
   }
   .container-body button {
-    margin-left: 10px;
+    margin-left: 0;
   }
 }/*# sourceMappingURL=style.css.map */

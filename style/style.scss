@@ -44,9 +44,10 @@ body{
 @media screen and (max-width:780px){
     .container-body{
         width:100%;
+        overflow: hidden;
 
         button{
-            margin-left: 10px;
+            margin-left:0;
         }
     }
 }
