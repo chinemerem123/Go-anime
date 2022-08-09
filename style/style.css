@@ -25,9 +25,26 @@ body {
   left: calc(50% - 150px);
   top: calc(50% - 150px);
 }
+.container-body button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: rgb(107, 41, 107);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: 30px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 
 @media screen and (max-width: 780px) {
   .container-body {
     width: 100%;
+  }
+  .container-body button {
+    margin-left: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
