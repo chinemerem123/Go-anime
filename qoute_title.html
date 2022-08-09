@@ -33,10 +33,27 @@
  <p class="text-center">Enter an anime title to get a qoute from it.</p>
 
  <div class="search text-center">
-  <form class="d-flex">
-    <input class="form-control me-2" type="search" placeholder="Enter title" aria-label="Search">
-    <button class="btn bg-warning" type="submit">Search</button>
-  </form>
+  <div class="d-flex">
+    <input class="form-control me-2" id="quote-input-text1" type="search" placeholder="Enter title" aria-label="Search">
+    <button id="get-quote-title" type="submit">Search</button>
+  </div>
+ </div>
+
+ <div class="card p-3 mt-4 card-quote">
+  <div class="d-flex">Anime: <b id="anime"> </b></div>
+  <div class="quote mt-2">
+    <span><b>Quote:</b></span>
+    <div class="qoute-text" id="qoute-text"></div>
+
+  </div>
+
+  <div class="charater mt-4">
+    <i class="float-end" id="charater"></i>
+  </div>
+ </div>
+
+ <div class="clear mt-4">
+  <button id="clear1">Clear</button>
  </div>
     </div>
   </div>
