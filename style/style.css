@@ -92,12 +92,15 @@ body {
 }
 
 @media screen and (max-width: 780px) {
+  body {
+    background-color: #fff;
+  }
   .container-body {
     width: 100%;
     overflow: hidden;
   }
   .container-body .cat a .card {
-    height: 170px;
+    height: 150px;
     font-size: 13px;
   }
   .container-body .cat a .card .h5 {

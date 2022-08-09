@@ -105,6 +105,9 @@ z-index:-1;
 
 
 @media screen and (max-width:780px){
+    body{
+        background-color: #fff;
+    }
     .container-body{
         width:100%;
         overflow: hidden;
@@ -112,7 +115,7 @@ z-index:-1;
         .cat{
             a{
                 .card{
-                    height:170px;
+                    height:150px;
                     font-size: 13px;
 
                     .h5{
