@@ -12,6 +12,18 @@ body{
     background-color: rgb(233, 168, 27);
 }
 
+@mixin btn {
+    padding:10px;
+    border:none;
+    color:#fff;
+    width:100%;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgb(233, 168, 27);
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+    font-weight: 600;
+}
+
 .container-body{
     position:relative;
     width:30%;
@@ -116,15 +128,7 @@ z-index:-1;
 
 .clear{
     button{
-        padding:10px;
-        border:none;
-        color:#fff;
-        width:100%;
-        border-radius: 4px;
-        outline: none;
-        background-color: rgb(233, 168, 27);
-        box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
-        font-weight: 600;
+      @include btn();
     }
 }
 
@@ -133,6 +137,23 @@ max-height: 300px;
 overflow: auto;
 }
 
+
+.neko-img{
+    .card{
+        height: 380px;
+        position: relative;
+        img{
+            position: absolute;
+            width:100%;
+            height: 100%;
+            left:calc(50% - 50%);
+            top:calc(50% - 50%);
+        }
+    }
+    button{
+       @include btn();
+    }
+}
 
 @media screen and (max-width:780px){
     body{
