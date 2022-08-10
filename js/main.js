@@ -7,6 +7,8 @@ let titleBtn=document.getElementById("get-quote-title");
 let anime=document.getElementById("anime");
 let quoteText=document.getElementById("qoute-text");
 let charater=document.getElementById("charater");
+let btnClear1=document.getElementById("clear1");
+
 
 var index = Math.floor(Math.random() * 10) + 0;
 
@@ -17,20 +19,18 @@ titleBtn.addEventListener('click', ()=>{
       .then(quotes => {
         if(quotes.length == 0){
             alert("Nothing Found!!");
-         }
+         }else{
         anime.innerText=quotes[index].anime;
         quoteText.innerText=quotes[index].quote;
         charater.innerText=quotes[index].character;
+      }
       })
 })
 
-document.getElementById("clear1").addEventListener('click',()=>{
-    anime.innerText="";
-    quoteTitle.value="";
-    quoteText.innerText="";
-    charater.innerText="";
+btnClear1.addEventListener('click',()=>{
+    window.location.reload();
 })
 
-      /*fetch('https://animechan.vercel.app/api/available/anime')
-      .then(response => response.json())
-      .then(anime => console.log(anime))*/
+
+
+      
